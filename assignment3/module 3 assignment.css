@@ -1,0 +1,94 @@
+.navbar{
+  background:#999999;
+}
+.navbar-brand{
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  font-family: 'GrundschriftRegular';
+
+   font-style: normal;
+   margin-left: 10px;
+}
+#brand:hover{
+  color:white;
+}
+@media (min-width:1200px){
+  .nav-link{
+    display: none;
+  }
+}
+@media (min-width:992px) and (max-width:1199px){
+  .nav-link{
+    display: none;
+  }
+
+}
+#links{
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'GardinerRegular';
+   font-weight: bold;
+   font-style: normal;
+   text-align: center;
+   background: white;
+   border: solid black 1px;
+   margin: 0px 0px;
+}
+.text-center h1{
+  font-family: 'GardinerRegular';
+   font-weight: bold;
+   font-style: normal;
+   margin: 20px 0px;
+   font-size: 50px;
+}
+.navbar-toggler{
+  border: solid black 2px;
+  color: black;
+
+}
+.navbar-toggler:hover{
+  background: white;
+}
+#links:hover{
+  color:#9900cc;
+  font-size: 27px;
+}
+
+.text-center{
+  font-family: 'GardinerRegular';
+   font-weight: bold;
+   font-style: normal;
+   margin: 20px 0px;
+}
+.jumbotron{
+  background: #999999;
+  font-weight: 500;
+}
+@media (min-width:1200px){
+  .container{
+    display: none;
+  }
+}
+@media (min-width:992px) and (max-width:1199px)
+{
+  .container{
+    display: none;
+  }
+}
+@media (min-width:768px) and (max-width:991px){
+  .container{
+    display: none;
+  }
+}
+@media (max-width:767px) {
+  .container-fluid{
+    display:none;
+  }
+}
+.navbar-light{
+  color:black;
+  border: soli black 2px;
+
+}
